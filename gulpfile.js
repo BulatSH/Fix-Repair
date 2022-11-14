@@ -18,7 +18,7 @@ const { src, dest, watch, parallel } = require('gulp'),
 function scripts() {
 	return src([
 		'app/js/slider.js',
-		'app/js/formSuccess.js',
+		'app/js/formSubmit.js',
 		'app/js/scroll.js'
 	])
 		.pipe(babel({
