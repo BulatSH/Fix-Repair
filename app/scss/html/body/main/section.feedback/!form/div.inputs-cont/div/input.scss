@@ -1,0 +1,21 @@
+html > body > main > section.feedback form > div.inputs-cont > div > input
+{
+	width: 100%;
+	padding: 18px 24px;
+
+	transition: 0.15s border;
+
+	color: $dark-gray;
+	border: 1px solid $gray;
+	border-radius: 4px;
+	outline: none;
+
+	font-size: $input-fs;
+}
+
+html > body > main > section.feedback form > div.inputs-cont > div > input:hover,
+html > body > main > section.feedback form > div.inputs-cont > div > input:focus,
+html > body > main > section.feedback form > div.inputs-cont > div > input:active
+{
+	border: 1px solid $orange;
+}

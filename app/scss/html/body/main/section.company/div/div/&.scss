@@ -1,0 +1,8 @@
+html > body > main > section.company > div > div
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 100%;
+}

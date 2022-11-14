@@ -1,0 +1,32 @@
+h1,
+h2,
+h3
+{
+	font-weight: $medium;
+}
+
+h1
+{
+	color: $black;
+
+	font-size: $h1-fs;
+	line-height: $lh-100;
+}
+
+h2
+{
+	color: $black;
+
+	font-size: $h2-fs;
+	line-height: $lh-middle;
+}
+
+h3
+{
+	text-transform: uppercase;
+
+	color: $green;
+
+	font-size: $h3-fs;
+	line-height: $lh-big;
+}

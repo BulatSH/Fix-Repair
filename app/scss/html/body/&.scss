@@ -1,4 +1,10 @@
-a
+html > body
 {
-	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	font-family:
+		Muller,
+		sans-serif;
+	font-weight: $regular;
 }

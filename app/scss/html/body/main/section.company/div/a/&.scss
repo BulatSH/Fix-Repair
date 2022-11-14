@@ -1,0 +1,38 @@
+html > body > main > section.company > div > a
+{
+	position: relative;
+
+	padding-left: 52px;
+
+	text-align: left;
+
+	color: $orange;
+
+	font-weight: $medium;
+	line-height: $lh-100;
+}
+
+html > body > main > section.company > div > a::before
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+
+	width: 40px;
+	height: 30px;
+	margin: auto;
+
+	content: "";
+	transition: 0.15s background-size;
+
+	background: url("../img/arrows-icon.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 40px 100%;
+}
+
+html > body > main > section.company > div > a:hover::before
+{
+	background-size: 32px 100%;
+}

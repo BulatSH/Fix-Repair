@@ -1,0 +1,35 @@
+html > body > main > section.feedback form > p.stock
+{
+	position: relative;
+
+	display: inline-block;
+
+	width: 100%;
+	max-width: 360px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 62px;
+
+	text-align: left;
+	text-transform: uppercase;
+
+	color: $black;
+}
+
+html > body > main > section.feedback form > p.stock::before
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 45px;
+	height: 68px;
+	margin: auto;
+
+	content: "";
+
+	background: url("../img/door-icon.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 45px auto;
+}

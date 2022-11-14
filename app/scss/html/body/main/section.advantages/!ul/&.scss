@@ -1,0 +1,6 @@
+html > body > main > section.advantages ul
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

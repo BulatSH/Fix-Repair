@@ -1,0 +1,41 @@
+html > body > main > section.feedback form > div.inputs-cont > div > label
+{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 18px;
+
+	height: 18px;
+	margin: auto;
+	padding-right: 6px;
+	padding-left: 6px;
+
+	transition:
+		0.15s font-size,
+		0.15s color,
+		0.15s bottom,
+		0.15s transform,
+		0.15s height;
+
+	color: $dark-gray;
+	background-color: $white;
+
+	font-size: $input-fs;
+}
+
+html > body > main > section.feedback form > div.inputs-cont > div > input:hover + label,
+html > body > main > section.feedback form > div.inputs-cont > div > input:focus + label,
+html > body > main > section.feedback form > div.inputs-cont > div > input:active + label,
+html > body > main > section.feedback form > div.inputs-cont > div > input:not(:placeholder-shown) + label
+{
+	bottom: initial;
+
+	height: 13px;
+
+	transform: translateY(-50%);
+
+	color: $orange;
+
+	font-size: $small-fs;
+}

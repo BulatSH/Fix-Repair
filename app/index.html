@@ -5,9 +5,261 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Компания / Fix Ремонт</title>
     <meta name="description" content="Ремонт квартир в типовых домах" />
-    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.min.css" />
 </head>
 <body>
+    <header>
+        <img src="img/logotype.png" alt="site logo" title="site logo" />
+        <a class="connection scroll-button" href="#footer">
+            Контакты
+		</a>
+    </header>
+    <main>
+        <section class="company">
+            <div>
+                <div>
+					<div class="main-title-cont">
+						<h1>
+							Ремонт квартир<br /> в типовых домах
+						</h1>
+						<p>
+							Готовый дизайн-проект, работы и материалы<br /> за 3 месяца от 610 т.р.
+						</p>
+					</div>
+					<div class="info-button-cont">
+						<a class="button scroll-button" href="#feedback">
+							Узнайте о запуске первым
+						</a>
+						<p>
+							Старт весной 2016
+						</p>
+					</div>
+                </div>
+                <a href="#advantages" class="scroll-button">
+                    Листайте вниз,<br /> чтобы ничего не упустить
+				</a>
+            </div>
+            <aside>
+				<figure>
+					<div>
+						<button>
+							<img src="img/play-button.png" alt="play button" title="play button" />
+							<span>
+								Смотреть видео
+							</span>
+						</button>
+					</div>
+				</figure>
+            </aside>
+        </section>
+        <section class="advantages" id="advantages">
+			<div class="container">
+				<div class="section-header-cont">
+					<p>
+						FIX Ремонт — это легко
+					</p>
+					<h3>
+						Готовые проекты, проверенные материалы и умелые руки
+					</h3>
+				</div>
+				<ul>
+					<li>
+						<div>
+							<h2>
+								Опытная команда
+							</h2>
+							<p>
+								Команда проектировщиков и строителей со стажем работы более 6 лет
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>
+								Типовые дизайн-проекты
+							</h2>
+							<p>
+								Три стиля чистовой отделки «под ключ» и спектр дополнительных услуг
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="advantages-item-bottom">
+							<h2>
+								Фиксированная смета
+							</h2>
+							<p>
+								Никаких дополнительных расходов во время ремонта. 
+									Расчет стоимости при заключении договора
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="advantages-item-bottom advantages-item-last">
+							<h2>
+								Срок работ<br />
+								<span>
+									3 месяца
+								</span>
+							</h2>
+						</div>
+					</li>
+				</ul>
+			</div>
+        </section>
+        <section class="styles">
+			<div class="container">
+				<div class="section-header-cont">
+					<p>
+						3 стиля интерьера
+					</p>
+					<h3>
+						Скандинавский, классический и эко-стиль
+					</h3>
+				</div>
+			</div>
+            <div class="slider">
+				<div class="slider-inner">
+					<div class="slider-items-cont">
+						<figure class="current">
+							<div>
+								<img src="img/slider/slider-item-1.png" 
+									alt="slider-item-1" title="slider-item-1" />
+								<p>
+									Кафельная плитка в ванной комнате в скандинавском стиле
+								</p>
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="img/slider/slider-item-2.png" 
+									alt="slider-item-1" title="slider-item-1" />
+								<p>
+									Кафельная плитка в ванной комнате в скандинавском стиле
+								</p>
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="img/slider/slider-item-3.png" 
+									alt="slider-item-1" title="slider-item-1" />
+								<p>
+									Кафельная плитка в ванной комнате в скандинавском стиле
+								</p>
+							</div>
+						</figure>
+					</div>
+					<div class="slider-buttons">
+						<button class="prev">
+							<img src="img/slider/slider-prev.png" 
+								alt="slider-prev" title="slider-prev" />
+						</button>
+						<button class="next">
+							<img src="img/slider/slider-next.png" 
+								alt="slider-next" title="slider-next" />
+						</button>
+					</div>
+				</div>
+            </div>
+        </section>
+        <section class="feedback" id="feedback">
+			<div class="container">
+				<h2 class="visually-hidden">Форма обратной связи</h2>
+				<form action="#" method="post" accept-charset="utf-8">
+					<div class="succsess">
+						<img src="img/submit-success-img.png"
+							alt="submit success" title="submit success" />
+						<p>
+							Спасибо! Мы будем держать вас в курсе обновлений
+						</p>
+					</div>
+					<p class="form-title">
+						Узнайте о запуске сервиса первым
+					</p>
+					<p class="stock">
+						Первым 10 клиентам стальная входная дверь в подарок
+					</p>
+					<div class="inputs-cont">
+						<div>
+							<input id="name-id" placeholder=" " name="name" 
+								value="" type="text" required="required" />
+							<label for="name-id">Имя и фамилия*</label>
+						</div>
+						<div>
+							<input id="email-id" placeholder=" "  name="email" 
+								value="" type="email" required="required" />
+							<label for="email-id">Е-mail адрес*</label>
+						</div>
+						<div>
+							<input id="phone-id" placeholder=" "  name="phone"
+								value="" type="tel" />
+							<label for="phone-id">Телефон</label>
+						</div>
+					</div>
+					<button type="button" class="button">
+						Подписаться
+					</button>
+					<div class="rules">
+						<p>
+							* Обязательные для заполнения поля
+						</p>
+						<a href="#">
+							Политика конфиденциальности
+						</a>
+					</div>
+				</form>
+			</div>
+        </section>
+    </main>
+    <footer id="footer">
+		<ul class="social-networks">
+			<li>
+				<a href="https://facebook.com/" target="_blank">
+					<img src="img/fb-icon.png" alt="facebook" title="facebook" />
+				</a>
+			</li>
+			<li>
+				<a href="https://vk.com/" target="_blank">
+					<img src="img/vk-icon.png" alt="vk" title="vk" />
+				</a>
+			</li>
+			<li>
+				<a href="https://instagram.com/" target="_blank">
+					<img src="img/inst-icon.png" alt="instagram" title="instagram" />
+				</a>
+			</li>
+		</ul>
+		<div class="follow">
+			<p>
+				Следите за нашим развитием
+			</p>
+			<p>
+				Подпишитесь на наши аккаунты в соц. сетях, 
+					знакомьтесь с нашими проектами и тем, что нас вдохновляет
+			</p>
+		</div>
+		<address>
+			<ul>
+				<li>
+					<a href="tel:+78129035445" class="connection">+7 (812) 903-54-45</a>
+				</li>
+				<li>
+					<p>
+						Ул. Галерная, д 55,
+					</p>
+					<p>
+						Санкт-Петербург
+					</p>
+				</li>
+				<li>
+					<a href="mailto:9035445@gmail.com" class="connection">9035445@gmail.com</a>
+				</li>
+			</ul>
+		</address>
+		<p class="copywrite">
+			© FIX Ремонт, 2016
+		</p>
+    </footer>
     <script src="js/main.min.js"></script>
 </body>
 </html>

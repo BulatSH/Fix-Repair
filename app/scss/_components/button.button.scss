@@ -1,0 +1,29 @@
+button.button,
+a.button
+{
+	width: 100%;
+	max-width: 260px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	transition:
+		0.15s background-color,
+		0.15s box-shadow;
+	text-align: center;
+
+	color: $white;
+	border-radius: 25px;
+	background-color: $orange;
+	box-shadow: 0 7px 15px rgb(249 87 46 / 60%);
+
+	font-weight: $medium;
+
+	line-height: $lh-100;
+}
+
+button.button:hover,
+a.button:hover
+{
+	background-color: $orange-light;
+	box-shadow: 0 15px 20px rgb(249 87 46 / 70%);
+}

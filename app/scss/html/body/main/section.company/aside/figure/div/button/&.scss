@@ -1,0 +1,13 @@
+html > body > main > section.company > aside > figure > div > button
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	max-width: 250px;
+
+	font-size: $middle-fs;
+	line-height: $lh-big;
+}

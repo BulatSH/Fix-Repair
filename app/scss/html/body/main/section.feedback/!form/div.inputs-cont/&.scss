@@ -1,0 +1,11 @@
+html > body > main > section.feedback form > div.inputs-cont
+{
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 48px;
+	margin-bottom: 48px;
+}

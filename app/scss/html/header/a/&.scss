@@ -1,0 +1,7 @@
+html > body > header > a::before
+{
+	background-image: url("../img/phone-icon.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}

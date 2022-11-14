@@ -1,0 +1,13 @@
+html > body > main > section.styles div.slider > div.slider-inner > div > figure > div > img
+{
+	width: 100%;
+
+	transition: 0.6s opacity;
+
+	opacity: 0.6;
+}
+
+html > body > main > section.styles div.slider > div.slider-inner > div > figure.current > div > img
+{
+	opacity: 1;
+}

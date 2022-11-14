@@ -1,0 +1,24 @@
+html > body > main > section.styles div.slider > div.slider-inner > div.slider-buttons > button
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+
+	width: 20px;
+	height: 100%;
+	margin: auto;
+
+	transition: 0.15s height;
+}
+
+html > body > main > section.styles div.slider > div.slider-inner > div.slider-buttons > button:last-child
+{
+	right: 0;
+	left: auto;
+}
+
+html > body > main > section.styles div.slider > div.slider-inner > div.slider-buttons > button:hover
+{
+	height: 32px;
+}

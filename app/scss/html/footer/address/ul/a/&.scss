@@ -1,0 +1,20 @@
+html > body > footer > address > ul > li:last-child > a
+{
+	padding-left: 40px;
+}
+
+html > body > footer > address > ul > li > a::before
+{
+	background-image: url("../img/phone-icon.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+html > body > footer > address > ul > li:last-child > a::before
+{
+	width: 30px;
+	height: 20px;
+
+	background-image: url("../img/mail-icon.png");
+}

@@ -1,0 +1,14 @@
+html > body > main > section.styles div.slider > div.slider-inner > div.slider-items-cont
+{
+	position: absolute;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+
+	width: 100%;
+	height: 100%;
+
+	transition: 0.3s transform;
+	transform: translateX(0);
+}

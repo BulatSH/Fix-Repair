@@ -1,0 +1,11 @@
+html > body > main > section.feedback form > div.inputs-cont > div
+{
+	position: relative;
+
+	width: 100%;
+}
+
+html > body > main > section.feedback form > div.inputs-cont > div + div
+{
+	margin-top: 30px;
+}
