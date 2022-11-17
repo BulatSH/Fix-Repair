@@ -16,8 +16,8 @@ module.exports = {
 	'lh-100': '1',
 
 	'h1-fs': '64px',
-	'h2-fs': '24px',
-	'h3-fs': '16px',
+	'h2-fs': '40px',
+	'h3-fs': '24px',
 	'large-fs': '64px',
 	'big-fs': '40px',
 	'middle-fs': '21px',

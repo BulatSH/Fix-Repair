@@ -2,6 +2,10 @@ html > body > main > section.feedback form
 {
 	position: relative;
 
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+
 	padding-bottom: 68px;
 
 	text-align: center;

@@ -1,9 +1,11 @@
 html > body > main > section.styles div.section-header-cont > p
 {
-	margin-bottom: 8px;
+	margin-top: 8px;
 
-	color: $black;
+	text-transform: uppercase;
 
-	font-size: $big-fs;
+	color: $green;
+
+	font-size: $standard-fs;
 	font-weight: $medium;
 }
